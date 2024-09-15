@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  background-color: rgb(252, 199, 176);
+  height: 100vh;
+}
+body {
+  background-color: black;
+}
+.h1 {
+  text-align: center;
+  padding-top: 5%;
+  font-size: 3rem;
+  margin-bottom: 5%;
+}
+#img_1 {
+  max-width: 20%;
+}
+.img__part {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+.button-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+.button {
+  color: white;
+  background-color: black;
+  width: 150px;
+  height: 50px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+}
